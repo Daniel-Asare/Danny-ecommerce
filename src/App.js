@@ -1,7 +1,7 @@
 import Header from "components/pages/Header";
 import  Section  from "components/pages/Section";
 import React from "react";
-import {BrowserRouter as Router,Switch} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import {AppProvider} from "components/pages/Context";
 import {CartProvider} from 'react-use-cart'
 
@@ -15,6 +15,7 @@ function App() {
       <Router>
       <Header/>
       <Section/>
+      
       </Router>
     </div>
     </AppProvider>
