@@ -13,10 +13,8 @@ function App() {
     <AppProvider>
     <div className="App">
       <Router>
-        <Switch>
       <Header/>
       <Section/>
-      </Switch>
       </Router>
     </div>
     </AppProvider>
