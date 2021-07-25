@@ -1,0 +1,141 @@
+
+
+a{
+  text-decoration: none;
+}
+.header{
+  width:100% ;
+  height: 70px;
+  top: 0;
+  position: relative;
+  background:#ffffff ;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  padding: 10px;
+  z-index: 100;
+  font-family: "Acme";
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  
+}
+
+.nav h1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left:20px ;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 2rem;
+  margin-left:10px ;
+  
+}
+
+@media(min-width:786px){
+  .nav h1{
+    width: 200px;
+  }
+}
+
+ul{
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50px;
+  left: 0;
+  list-style: none;
+  height: auto ;
+  font-size: 1.5rem;
+  padding: 10px;
+  background: #ffffff;
+  height: 88vh;
+  z-index: 99;
+}
+
+ul li{
+  text-align: center;
+  padding: 20px;
+  color: black;
+  text-transform:uppercase ;
+}
+
+.toggle{
+  position: absolute;
+  transform:translateY(-150%) ;
+
+}
+@media (min-width:800px){
+  .toggle{
+  position: relative;
+  transform: translateY(0%);
+  }
+}
+@media (min-width:786px) {
+  ul{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    height: 50px;
+    top: 0%;
+    font-size: 1.2rem;
+    max-width: 100px;
+    visibility: visible;
+  }
+}
+
+.navIcon{
+  font-size: 2rem;
+  margin-left: 20px;
+  cursor: pointer;
+  order: -1;
+}
+
+@media (min-width:786px){
+  .navIcon {
+    display: none;
+}
+}
+
+.cartIcon{
+  position: relative;
+  margin-right:20px;
+  width: 40px;
+  height: 30px;
+  color: black;
+}
+
+/* @media (min-width:786px){
+  .cartIcon {
+    margin-right:30px;
+}
+} */
+.cartIcon  span{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  /* background: rgb(12, 12, 12); */
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  color:black;
+}
+
+.cartShop{
+  font-size: 2rem;
+}

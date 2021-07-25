@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;700&display=swap');
+
+a{
+  color: black;
+}
+
+.productContainer{
+  width: 100%;
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fill,minmax(380px,1fr));
+}
+
+
+
+article{
+  width: 90%;
+  max-width: 350px;
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+  border-radius:10px ;
+  background: rgb(245, 245, 245);
+  box-shadow: 3px 3px 5px  rgba(199, 199, 197, 0.932),-3px -3px 5px  rgba(199, 199, 197, 0.932);
+  padding-bottom: 0;
+  font-family: 'Acme',sans-serif;
+  letter-spacing: 0.1rem;
+  
+}
+
+article h3{
+  text-align: center;
+  margin-top: 0.5rem ;
+  font-size: 1.35rem;
+}
+ .product-price{
+   margin: 1rem 1rem 0.5rem 1rem;
+   text-align: center;
+   font-size: 1.2rem;
+ }
+
+img{
+  width: 100%;
+  max-width: 300px;
+  height:250px;
+  /* margin: 0.4rem auto; */
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+  
+}
+
+.cart-btn{
+  color: white;
+  background: black;
+  display: inline-block;
+  width: 100%;
+  margin-top: 1.5rem ;
+  text-align: center;
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 0;
+}

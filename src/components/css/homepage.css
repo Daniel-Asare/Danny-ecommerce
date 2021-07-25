@@ -1,0 +1,56 @@
+.homepage-container{
+  width: 100%;
+  background: url('https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/6badf0f8-31cf-4e0a-b4b9-29a57be1557e/zoomx-vaporfly-next-2-womens-racing-shoe-2CMkCf.png') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Acme";
+}
+
+.homepage-container h1{
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  line-height: 1;
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+
+}
+
+.homepage-container p{
+  max-width: 300px;
+  font-weight: 400;
+  margin-left: 1.2rem;
+  font-size: 1rem;
+}
+
+.homepage-container a{
+  display: inline-block;
+  margin: 2rem;
+  border: 2px solid rgb(34, 33, 33);
+  max-width: 200px;
+  text-align: center;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: white;
+  background: black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.homepage-container a:hover{
+  color: black;
+  background: white;
+}
+
+.detail-icon{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+
+
+
