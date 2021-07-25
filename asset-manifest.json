@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Danny-ecommerce/static/css/main.47dd0daf.chunk.css",
-    "main.js": "/Danny-ecommerce/static/js/main.9d854dc0.chunk.js",
-    "main.js.map": "/Danny-ecommerce/static/js/main.9d854dc0.chunk.js.map",
+    "main.css": "/Danny-ecommerce/static/css/main.313ca31e.chunk.css",
+    "main.js": "/Danny-ecommerce/static/js/main.84f652b2.chunk.js",
+    "main.js.map": "/Danny-ecommerce/static/js/main.84f652b2.chunk.js.map",
     "runtime-main.js": "/Danny-ecommerce/static/js/runtime-main.af5fdc21.js",
     "runtime-main.js.map": "/Danny-ecommerce/static/js/runtime-main.af5fdc21.js.map",
     "static/css/2.68b64559.chunk.css": "/Danny-ecommerce/static/css/2.68b64559.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.69b1022f.chunk.js.map": "/Danny-ecommerce/static/js/2.69b1022f.chunk.js.map",
     "index.html": "/Danny-ecommerce/index.html",
     "static/css/2.68b64559.chunk.css.map": "/Danny-ecommerce/static/css/2.68b64559.chunk.css.map",
-    "static/css/main.47dd0daf.chunk.css.map": "/Danny-ecommerce/static/css/main.47dd0daf.chunk.css.map",
+    "static/css/main.313ca31e.chunk.css.map": "/Danny-ecommerce/static/css/main.313ca31e.chunk.css.map",
     "static/js/2.69b1022f.chunk.js.LICENSE.txt": "/Danny-ecommerce/static/js/2.69b1022f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.af5fdc21.js",
     "static/css/2.68b64559.chunk.css",
     "static/js/2.69b1022f.chunk.js",
-    "static/css/main.47dd0daf.chunk.css",
-    "static/js/main.9d854dc0.chunk.js"
+    "static/css/main.313ca31e.chunk.css",
+    "static/js/main.84f652b2.chunk.js"
   ]
 }
