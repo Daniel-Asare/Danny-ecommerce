@@ -11,7 +11,7 @@ import Contact from './Contact'
 const Section = () => {
   return (
     <section>
-      <Route path='/homepage' exact component={Homepage}/>
+      <Route path='/' exact component={Homepage}/>
       <Route path='/product' exact component={Products}/>
       <Route path='/product/:id' exact  component={Detail}/>
       <Route path="/cart" exact component={Cart}/>
