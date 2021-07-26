@@ -1,7 +1,7 @@
 import Header from "components/pages/Header";
 import  Section  from "components/pages/Section";
 import React from "react";
-import {BrowserRouter as Router,Route, Switch} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import {AppProvider} from "components/pages/Context";
 import {CartProvider} from 'react-use-cart'
 import Homepage from "components/pages/Homepage";
@@ -15,14 +15,14 @@ function App() {
   return (
    <CartProvider>
     <AppProvider>
-      <Router basename='/'>
+      <Router>
       <Header/>
-      <Route path="/" exact component={Homepage}/>
+      {/* <Route path="/" exact component={Homepage}/>
       <Route path='/product' component={Products}/>
       <Route path='/product/:id'  component={Detail}/>
       <Route path="/cart" component={Cart}/>
-      <Route path='/contact'  component={Contact}/>
-      {/* <Section/> */}
+      <Route path='/contact'  component={Contact}/> */}
+      <Section/> 
       </Router>
     </AppProvider>
    </CartProvider>
