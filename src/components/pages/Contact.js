@@ -9,9 +9,9 @@ const Contact =()=> {
       <h2>Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-      <label htmlFor="email">
+      {/* <label htmlFor="email">
         Email :
-      </label>
+      </label> */}
       <input
         id="email"
         type="email" 
@@ -26,7 +26,7 @@ const Contact =()=> {
         </div>
   
       <div className="form-group">
-        <label htmlFor="message">Message :</label>
+        {/* <label htmlFor="message">Message :</label> */}
         <textarea
         id="message"
         name="message"
